@@ -1,8 +1,12 @@
 <div class="header">
   <h1>miss davis designs</h1>
   <div class="body">
-    <button type="button" class="btn btn-light">
+    <button type="button" class="btn btn-light" (click)="createPDF()">
       create a customized worksheet
     </button>
+    <button type="button" class="btn btn-light" (click)="generatePDF()">
+      generate my worksheet
+    </button>
   </div>
+  <div #myDiv id="myDiv"></div>
 </div>
